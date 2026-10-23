@@ -27,3 +27,4 @@ coverage/
 # Local agent skills (reinstallable)
 .agents/
 .scratch/
+.vite/

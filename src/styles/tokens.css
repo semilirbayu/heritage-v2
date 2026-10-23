@@ -1,0 +1,60 @@
+:root {
+  color-scheme: light;
+
+  /* Typography */
+  --font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-size-body: 15px;
+  --font-size-small: 13px;
+  --font-size-tiny: 12px;
+  --font-size-title: 30px;
+  --text-primary: #000;
+  --text-secondary: #595959;
+  --text-muted: #8a8a8a;
+
+  /* Surfaces */
+  --surface-page: #f2f2f2;
+  --surface-card: #fff;
+  --surface-subtle: #fafafa;
+  --canvas-overlay: rgba(0, 0, 0, 0.05);
+  --border-subtle: #e5e5e5;
+  --border-strong: #ccc;
+
+  /* Brand and gender colours (measured on MyHeritage) */
+  --accent: #d14900;
+  --accent-hover: #b33e00;
+  --accent-soft: rgba(209, 73, 0, 0.08);
+  --sex-male: #17b4ce;
+  --sex-female: #fc8181;
+  --sex-unknown: #999;
+  --connector: #999;
+
+  /* Tree geometry, in tree units (1 unit = 1px at zoom 1) */
+  --card-width: 220px;
+  --card-height: 102px;
+  --card-radius: 8px;
+  --card-border-width: 2px;
+  --card-selected-border-width: 3px;
+  --card-selected-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  --avatar-size: 64px;
+  --avatar-ring: #ccc;
+  --tree-generation-step: 188px;
+  --tree-couple-spacing: 254px;
+  --tree-sibling-spacing: 277px;
+  --tree-name-x: 82px;
+  --tree-name-first-baseline: 24px;
+  --tree-name-line-height: 16px;
+  --tree-subtext-offset: 19px;
+  --tree-corner-radius: 30px;
+
+  /* Chrome */
+  --header-height: 56px;
+  --toolbar-height: 52px;
+  --panel-width: 370px;
+
+  /* Import screen */
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.04), 0 18px 48px rgba(0, 0, 0, 0.07);
+  --shadow-floating: 0 1px 3px rgba(0, 0, 0, 0.08), 0 6px 18px rgba(0, 0, 0, 0.06);
+  --radius-small: 6px;
+  --radius-medium: 12px;
+  --radius-pill: 15px;
+}
